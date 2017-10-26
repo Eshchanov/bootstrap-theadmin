@@ -1,3 +1,3 @@
 TheAdmin
 ================================
-![alt text](assets/img/favicon.png)
+![alt text](readme/home.jpg)
