@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TheAdmin - Responsive admin and web application ui kit">
+    <meta name="keywords" content="admin, dashboard, web app, sass, ui kit, ui framework, bootstrap">
+
+    <title>Theadmin Job Management - Applicants</title>
+
+    <!-- Styles -->
+    <link href="../../assets/css/core.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-expand-lg sidebar-iconic">
+      <header class="sidebar-header">
+        <span class="logo"><img src="assets/img/logo.png" alt="logo"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu">
+
+          <li class="menu-item">
+            <a class="menu-link" href="index.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="position-list.html">
+              <span class="icon fa fa-briefcase"></span>
+              <span class="title">Positions</span>
+            </a>
+          </li>
+
+          <li class="menu-item active">
+            <a class="menu-link" href="applicant-list.html">
+              <span class="icon fa fa-user"></span>
+              <span class="title">Applicants</span>
+              <span class="badge badge-pill badge-danger">2</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="resume-list.html">
+              <span class="icon fa fa-file-text-o"></span>
+              <span class="title">Resumes</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="settings.html">
+              <span class="icon fa fa-cogs"></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+        <h4 class="topbar-title">Applicants</h4>
+      </div>
+
+      <div class="topbar-right">
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="assets/img/logo-envato.png" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="#">
+                <div class="flexbox">
+                  <i class="ti-email"></i>
+                  <span class="flex-grow">Inbox</span>
+                  <span class="badge badge-pill badge-info">5</span>
+                </div>
+              </a>
+              <a class="dropdown-item" href="setting.html"><i class="ti-settings"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user sent a resume.</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>Your new plan is activated</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p><b>Hossein Shams</b> disagreed with your job offer.</p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user sent a resume.</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+          <!-- Messages -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn" data-toggle="dropdown"><i class="ti-email"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="assets/img/avatar/1.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                  </div>
+                </a>
+
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-warning">
+                    <img src="assets/img/avatar/2.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-dark">
+                    <img src="assets/img/avatar/3.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success bg-purple">FT</span>
+
+                  <div class="media-body">
+                    <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-danger">
+                    <img src="assets/img/avatar/4.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Collaboratively visualize corporate initiatives for web-enabled value.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="assets/img/avatar/5.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Interactively reinvent standards compliant supply chains through next-generation bandwidth.</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all messages</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Messages -->
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+
+
+      <!-- Page aside -->
+      <aside class="aside aside-expand-md">
+        <div class="aside-body">
+          <form class="aside-block form-type-line">
+
+
+            <p><small class="text-uppercase">Status</small></p>
+            <div class="custom-controls-stacked">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" checked>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">All Statuses</span>
+              </label>
+
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">New</span>
+              </label>
+
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Contacted</span>
+              </label>
+
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Interviewed</span>
+              </label>
+
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Hired</span>
+              </label>
+            </div>
+
+            <hr>
+
+
+            <p><small class="text-uppercase">Order</small></p>
+            <div class="input-group">
+              <select class="form-control" data-provide="selectpicker">
+                <option>Newest first</option>
+                <option>Oldest first</option>
+                <option>Low salary first</option>
+                <option>High salary first</option>
+                <option>Sort by name</option>
+              </select>
+            </div>
+            <hr>
+
+
+            <p><small class="text-uppercase">Search</small></p>
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="keyword: name or headline">
+            </div>
+
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Location: city, state or zip">
+            </div>
+            <hr>
+
+
+
+            <div class="flexbox">
+              <button class="btn btn-sm btn-secondary">Reset</button>
+              <button class="btn btn-sm btn-primary">Filter</button>
+            </div>
+
+          </form>
+        </div>
+
+        <button class="aside-toggler"></button>
+      </aside>
+      <!-- END Page aside -->
+
+
+      <div class="main-content">
+
+        <p class="lead text-center text-fade">List of all people who applied for the following position:</p>
+        <div class="card b-1 hover-shadow-2 mb-20">
+          <a class="media card-body" href="#">
+            <div class="media-left pr-12">
+              <img class="avatar avatar-xl no-radius" src="assets/img/logo-google.jpg" alt="...">
+            </div>
+
+            <div class="media-body">
+              <div class="mb-2">
+                <span class="fs-20 pr-16">Senior front-end developer</span>
+                <span class="badge badge-success text-uppercase no-radius ls-1 opacity-75">Full-time</span>
+              </div>
+              <small class="fs-16 fw-300 ls-1">Google</small>
+            </div>
+
+            <div class="media-right text-right d-none d-md-block">
+              <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i> Menlo Park, CA</p>
+              <span class="text-fade fs-12">Applicants: <strong>19</strong></span>
+            </div>
+          </a>
+        </div>
+
+        <br>
+        <div class="divider text-uppercase fw-500">Applicants</div>
+
+        <div class="card b-1 hover-shadow-2 mb-20">
+          <div class="media card-body">
+            <div class="media-left pr-12">
+              <img class="avatar avatar-xl no-radius" src="assets/img/avatar/2.jpg" alt="...">
+            </div>
+
+            <div class="media-body">
+              <div class="mb-2">
+                <span class="fs-20 pr-16">Hossein Shams</span>
+              </div>
+              <small class="fs-16 fw-300 ls-1">Front-end developer</small>
+            </div>
+
+            <div class="media-right text-right d-none d-md-block">
+              <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i> Menlo Park, CA</p>
+              <span class="text-fade"><i class="fa fa-money pr-1"></i> $60 per hour</span>
+            </div>
+          </div>
+
+          <footer class="card-footer flexbox align-items-center">
+            <div>
+              <strong>Applied on:</strong>
+              <span>21 Jan, 2017</span>
+            </div>
+            <div class="card-hover-show">
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#">Download CV</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#" data-toggle="modal" data-target="#modal-contact">Contact</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-danger" href="#">Delete</a>
+            </div>
+          </footer>
+        </div>
+
+
+
+        <div class="card b-1 hover-shadow-2 mb-20">
+          <div class="media card-body">
+            <div class="media-left pr-12">
+              <img class="avatar avatar-xl no-radius" src="assets/img/avatar/1.jpg" alt="...">
+            </div>
+
+            <div class="media-body">
+              <div class="mb-2">
+                <span class="fs-20 pr-16">Maryam Amiri</span>
+              </div>
+              <small class="fs-16 fw-300 ls-1">Designer</small>
+            </div>
+
+            <div class="media-right text-right d-none d-md-block">
+              <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i> Fairfield, IA</p>
+              <span class="text-fade"><i class="fa fa-money pr-1"></i> $45 per hour</span>
+            </div>
+          </div>
+
+          <footer class="card-footer flexbox align-items-center">
+            <div>
+              <strong>Applied on:</strong>
+              <span>17 Jan, 2017</span>
+            </div>
+            <div class="card-hover-show">
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#">Download CV</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#" data-toggle="modal" data-target="#modal-contact">Contact</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-danger" href="#">Delete</a>
+            </div>
+          </footer>
+        </div>
+
+
+
+
+        <div class="card b-1 hover-shadow-2 mb-20">
+          <div class="media card-body">
+            <div class="media-left pr-12">
+              <img class="avatar avatar-xl no-radius" src="assets/img/avatar/3.jpg" alt="...">
+            </div>
+
+            <div class="media-body">
+              <div class="mb-2">
+                <span class="fs-20 pr-16">Frank Camly</span>
+              </div>
+              <small class="fs-16 fw-300 ls-1">Front end developer</small>
+            </div>
+
+            <div class="media-right text-right d-none d-md-block">
+              <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i> Seattle, WA</p>
+              <span class="text-fade"><i class="fa fa-money pr-1"></i> $40 per hour</span>
+            </div>
+          </div>
+
+          <footer class="card-footer flexbox align-items-center">
+            <div>
+              <strong>Applied on:</strong>
+              <span>15 Jan, 2017</span>
+            </div>
+            <div class="card-hover-show">
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#">Download CV</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#" data-toggle="modal" data-target="#modal-contact">Contact</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-danger" href="#">Delete</a>
+            </div>
+          </footer>
+        </div>
+
+
+
+        <div class="card b-1 hover-shadow-2 mb-20">
+          <div class="media card-body">
+            <div class="media-left pr-12">
+              <img class="avatar avatar-xl no-radius" src="assets/img/avatar/4.jpg" alt="...">
+            </div>
+
+            <div class="media-body">
+              <div class="mb-2">
+                <span class="fs-20 pr-16">Tim Hank</span>
+              </div>
+              <small class="fs-16 fw-300 ls-1">Web developer</small>
+            </div>
+
+            <div class="media-right text-right d-none d-md-block">
+              <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i> Fremont, CA</p>
+              <span class="text-fade"><i class="fa fa-money pr-1"></i> $55 per hour</span>
+            </div>
+          </div>
+
+          <footer class="card-footer flexbox align-items-center">
+            <div>
+              <strong>Applied on:</strong>
+              <span>11 Jan, 2017</span>
+            </div>
+            <div class="card-hover-show">
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#">Download CV</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-secondary" href="#" data-toggle="modal" data-target="#modal-contact">Contact</a>
+              <a class="btn btn-xs fs-10 btn-bold btn-danger" href="#">Delete</a>
+            </div>
+          </footer>
+        </div>
+
+
+
+
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">
+                <span class="ti-arrow-left"></span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <span class="ti-arrow-right"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <br>
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="http://thetheme.io/theadmin">TheAdmin</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="../help/articles.html">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../help/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://themeforest.net/item/theadmin-responsive-bootstrap-4-admin-dashboard-webapp-template/20475359?license=regular&open_purchase_for_item_id=20475359&purchasable=source&ref=thethemeio">Purchase Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+
+    <!-- Contact modal -->
+    <div class="modal modal-top fade" id="modal-contact" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Send message to Hossein</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Subject">
+            </div>
+
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-bold btn-pure btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-bold btn-pure btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="../../assets/js/core.min.js"></script>
+    <script src="../../assets/js/app.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>

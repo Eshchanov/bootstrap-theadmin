@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. Several lookup forms are provided in Theadmin, since you might need them a lot in your web app.">
+    <meta name="keywords" content="form, lookup, search">
+
+    <title>Lookup &mdash; TheAdmin</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-right sidebar-icons-boxed sidebar-expand-lg">
+      <header class="sidebar-header">
+        <a class="logo-icon" href="../index.html"><img src="../assets/img/logo-icon-light.png" alt="logo icon"></a>
+        <span class="logo">
+          <a href="../index.html"><img src="../assets/img/logo-light.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu">
+
+          <li class="menu-category">Preview</li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="../dashboard/general.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-tv"></span>
+              <span class="title">Samples</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/invoicer/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Invoicer</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/job/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Job Management</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/support/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Support System</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+
+          <li class="menu-category">Framework</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-layout"></span>
+              <span class="title">Layout</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/grid.html">
+                  <span class="dot"></span>
+                  <span class="title">Grid</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/sidebar.html">
+                  <span class="dot"></span>
+                  <span class="title">Sidebar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/topbar.html">
+                  <span class="dot"></span>
+                  <span class="title">Topbar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/header.html">
+                  <span class="dot"></span>
+                  <span class="title">Header</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/aside.html">
+                  <span class="dot"></span>
+                  <span class="title">Aside</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/card.html">
+                  <span class="dot"></span>
+                  <span class="title">Card</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/quickview.html">
+                  <span class="dot"></span>
+                  <span class="title">Quickview</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/footer.html">
+                  <span class="dot"></span>
+                  <span class="title">Footer</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-align-left"></span>
+              <span class="title">Content</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../content/typography.html">
+                  <span class="dot"></span>
+                  <span class="title">Typography</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/colors.html">
+                  <span class="dot"></span>
+                  <span class="title">Colors</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/icons.html">
+                  <span class="dot"></span>
+                  <span class="title">Icons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/images.html">
+                  <span class="dot"></span>
+                  <span class="title">Images</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/tables.html">
+                  <span class="dot"></span>
+                  <span class="title">Tables</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/media.html">
+                  <span class="dot"></span>
+                  <span class="title">Media</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/code.html">
+                  <span class="dot"></span>
+                  <span class="title">Code</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/utilities.html">
+                  <span class="dot"></span>
+                  <span class="title">Utilities</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-plus-circle"></span>
+              <span class="title">Extention</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/ajax-loader.html">
+                  <span class="dot"></span>
+                  <span class="title">Ajax</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/animation-animate.html">
+                  <span class="dot"></span>
+                  <span class="title">Animation</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/framework-vuejs.html">
+                  <span class="dot"></span>
+                  <span class="title">JS Framework</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/pace.html">
+                  <span class="dot"></span>
+                  <span class="title">Pace</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/fullscreen.html">
+                  <span class="dot"></span>
+                  <span class="title">Fullscreen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/tour.html">
+                  <span class="dot"></span>
+                  <span class="title">Tour</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-ruler-pencil"></span>
+              <span class="title">UI Kit</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/buttons.html">
+                  <span class="dot"></span>
+                  <span class="title">Buttons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/badges.html">
+                  <span class="dot"></span>
+                  <span class="title">Badges</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/notification-alert.html">
+                  <span class="dot"></span>
+                  <span class="title">Notifications</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/dialog-modal.html">
+                  <span class="dot"></span>
+                  <span class="title">Dialogs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/dropdown.html">
+                  <span class="dot"></span>
+                  <span class="title">Dropdown</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/progress-progressbar.html">
+                  <span class="dot"></span>
+                  <span class="title">Progress</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/panel-tab.html">
+                  <span class="dot"></span>
+                  <span class="title">Tabs & Accordion</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/timeline.html">
+                  <span class="dot"></span>
+                  <span class="title">Timeline</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/carousel.html">
+                  <span class="dot"></span>
+                  <span class="title">Carousel</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/nav.html">
+                  <span class="dot"></span>
+                  <span class="title">Nav</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/misc-bootstrap.html">
+                  <span class="dot"></span>
+                  <span class="title">Misc</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item active open">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-check-square"></span>
+              <span class="title">Forms</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../form/input-default.html">
+                  <span class="dot"></span>
+                  <span class="title">Inputs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/control-checkbox.html">
+                  <span class="dot"></span>
+                  <span class="title">Controls</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/picker-select.html">
+                  <span class="dot"></span>
+                  <span class="title">Pickers</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/addon-slider.html">
+                  <span class="dot"></span>
+                  <span class="title">Addons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/upload.html">
+                  <span class="dot"></span>
+                  <span class="title">Upload</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/editor-summernote.html">
+                  <span class="dot"></span>
+                  <span class="title">Editor</span>
+                </a>
+              </li>
+
+              <li class="menu-item active">
+                <a class="menu-link" href="../form/lookup.html">
+                  <span class="dot"></span>
+                  <span class="title">Lookup</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/publisher-single.html">
+                  <span class="dot"></span>
+                  <span class="title">Publisher</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/layout.html">
+                  <span class="dot"></span>
+                  <span class="title">Layouts</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/mask.html">
+                  <span class="dot"></span>
+                  <span class="title">Mask</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/validation.html">
+                  <span class="dot"></span>
+                  <span class="title">Validation</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/wizard.html">
+                  <span class="dot"></span>
+                  <span class="title">Wizard</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-pie-chart"></span>
+              <span class="title">Charts</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/chartjs.html">
+                  <span class="dot"></span>
+                  <span class="title">Chartjs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/morris.html">
+                  <span class="dot"></span>
+                  <span class="title">Morris</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/sparkline.html">
+                  <span class="dot"></span>
+                  <span class="title">Sparkline</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/peity.html">
+                  <span class="dot"></span>
+                  <span class="title">Peity</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/easypiechart.html">
+                  <span class="dot"></span>
+                  <span class="title">Easy pie chart</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-category">Pages</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-puzzle-piece"></span>
+              <span class="title">Widgets</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/statistic.html">
+                  <span class="dot"></span>
+                  <span class="title">Statistic</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/chart.html">
+                  <span class="dot"></span>
+                  <span class="title">Chart</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/list.html">
+                  <span class="dot"></span>
+                  <span class="title">List</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/social.html">
+                  <span class="dot"></span>
+                  <span class="title">Social</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/blog.html">
+                  <span class="dot"></span>
+                  <span class="title">Blog</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/form.html">
+                  <span class="dot"></span>
+                  <span class="title">Form</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/app.html">
+                  <span class="dot"></span>
+                  <span class="title">App</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-layout-grid3-alt"></span>
+              <span class="title">Apps</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/calendar.html">
+                  <span class="dot"></span>
+                  <span class="title">Calendar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/mailbox.html">
+                  <span class="dot"></span>
+                  <span class="title">Mailbox</span>
+                  <span class="badge badge-pill badge-primary">4</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/chat.html">
+                  <span class="dot"></span>
+                  <span class="title">Chat</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/users.html">
+                  <span class="dot"></span>
+                  <span class="title">Users</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-file"></span>
+              <span class="title">Pages</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page/gallery.html">
+                  <span class="dot"></span>
+                  <span class="title">Gallery</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/map-google.html">
+                  <span class="dot"></span>
+                  <span class="title">Map</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/profile.html">
+                  <span class="dot"></span>
+                  <span class="title">Profile</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/pricing.html">
+                  <span class="dot"></span>
+                  <span class="title">Pricing</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/invoice-1.html">
+                  <span class="dot"></span>
+                  <span class="title">Invoice</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/userlist.html">
+                  <span class="dot"></span>
+                  <span class="title">User list</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/search.html">
+                  <span class="dot"></span>
+                  <span class="title">Search result</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/faq-1.html">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-files-o"></span>
+              <span class="title">Extras</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-login.html">
+                  <span class="dot"></span>
+                  <span class="title">Login</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-register.html">
+                  <span class="dot"></span>
+                  <span class="title">Register</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-pass.html">
+                  <span class="dot"></span>
+                  <span class="title">Forget pass</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-lock.html">
+                  <span class="dot"></span>
+                  <span class="title">Lock screen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/maintenance.html">
+                  <span class="dot"></span>
+                  <span class="title">maintenance</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/coming-soon.html">
+                  <span class="dot"></span>
+                  <span class="title">coming soon</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/error.html">
+                  <span class="dot"></span>
+                  <span class="title">Error pages</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/blank.html">
+                  <span class="dot"></span>
+                  <span class="title">Blank page</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="../email/index.html">
+              <span class="icon fa fa-envelope"></span>
+              <span class="title">Emails</span>
+            </a>
+          </li>
+
+
+
+          <li class="menu-divider"></li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-question-circle"></span>
+              <span class="title">Help</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../help/articles.html">
+                  <span class="dot"></span>
+                  <span class="title">Articles</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../help/faq.html">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../help/changelog.html">
+                  <span class="dot"></span>
+                  <span class="title">Changelog</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+
+        <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+          <i class="material-icons fullscreen-default">fullscreen</i>
+          <i class="material-icons fullscreen-active">fullscreen_exit</i>
+        </a>
+
+        <div class="dropdown d-none d-md-block">
+          <span class="topbar-btn" data-toggle="dropdown"><i class="ti-layout-grid3-alt"></i></span>
+          <div class="dropdown-menu dropdown-grid">
+            <a class="dropdown-item" href="../dashboard/general.html">
+              <span data-i8-icon="home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+            <a class="dropdown-item" href="../page/gallery.html">
+              <span data-i8-icon="stack_of_photos"></span>
+              <span class="title">Gallery</span>
+            </a>
+            <a class="dropdown-item" href="../page/search.html">
+              <span data-i8-icon="search"></span>
+              <span class="title">Search</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/calendar.html">
+              <span data-i8-icon="calendar"></span>
+              <span class="title">Calendar</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/chat.html">
+              <span data-i8-icon="sms"></span>
+              <span class="title">Chat</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/mailbox.html">
+              <span data-i8-icon="invite"></span>
+              <span class="title">Emails</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/users.html">
+              <span data-i8-icon="contacts"></span>
+              <span class="title">Contacts</span>
+            </a>
+            <a class="dropdown-item" href="../widget/chart.html">
+              <span data-i8-icon="bar_chart"></span>
+              <span class="title">Charts</span>
+            </a>
+            <a class="dropdown-item" href="../page/profile.html">
+              <span data-i8-icon="businessman"></span>
+              <span class="title">Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="topbar-divider d-none d-md-block"></div>
+
+        <div class="lookup d-none d-md-block topbar-search" id="theadmin-search">
+          <input class="form-control w-300px" type="text">
+          <div class="lookup-placeholder">
+            <i class="ti-search"></i>
+            <span><strong>Try</strong> button, slider, modal, etc.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <a class="topbar-btn" href="#qv-global" data-toggle="quickview"><i class="ti-align-right"></i></a>
+
+        <div class="topbar-divider"></div>
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="../page-app/mailbox.html">
+                <div class="flexbox">
+                  <i class="ti-email"></i>
+                  <span class="flex-grow">Inbox</span>
+                  <span class="badge badge-pill badge-info">5</span>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../page-extra/user-lock-1.html"><i class="ti-lock"></i> Lock</a>
+              <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user registered</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>New order received</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p>Refund request from <b>Ashlyn Culotta</b></p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-primary"><i class="ti-money"></i></span>
+                  <div class="media-body">
+                    <p>New payment has made through PayPal</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+          <!-- Messages -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn" data-toggle="dropdown"><i class="ti-email"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../assets/img/avatar/1.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                  </div>
+                </a>
+
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-warning">
+                    <img src="../assets/img/avatar/2.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-dark">
+                    <img src="../assets/img/avatar/3.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success bg-purple">FT</span>
+
+                  <div class="media-body">
+                    <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-danger">
+                    <img src="../assets/img/avatar/4.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Collaboratively visualize corporate initiatives for web-enabled value.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../assets/img/avatar/5.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Interactively reinvent standards compliant supply chains through next-generation bandwidth.</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all messages</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Messages -->
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+
+      <header class="header bg-ui-general">
+        <div class="header-info">
+          <h1 class="header-title">
+            <strong>Lookup</strong>
+            <small>Several lookup forms are provided in Theadmin, since you might need them a lot in your web app.</small>
+          </h1>
+        </div>
+      </header><!--/.header -->
+
+
+      <div class="main-content">
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Basic lookups
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Basic</strong> lookup</h4>
+
+          <div class="card-body">
+            <div class="row gap-y">
+
+              <div class="col-xl-6">
+
+                <div class="code mb-0">
+                  <div class="code-preview">
+                    <!-- Small -->
+                    <form class="lookup lookup-sm mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Default -->
+                    <form class="lookup mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Large -->
+                    <form class="lookup lookup-lg mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+                  </div>
+
+                  <pre class="mb-0"><code class="language-markup">&lt;!-- Small -->
+&lt;form class="lookup lookup-sm">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form>
+
+&lt;!-- Default -->
+&lt;form class="lookup">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form>
+
+&lt;!-- Large -->
+&lt;form class="lookup lookup-lg">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form></code></pre>
+
+                  <div class="code-toggler">
+                    <button class="btn btn-square"><i class="ion-code"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="col-xl-6">
+
+                <div class="code mb-0">
+                  <div class="code-preview text-right">
+                    <!-- Small -->
+                    <form class="lookup lookup-right lookup-sm mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Default -->
+                    <form class="lookup lookup-right mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Large -->
+                    <form class="lookup lookup-right lookup-lg mb-1">
+                      <input type="text" placeholder="Search...">
+                    </form>
+                  </div>
+
+                  <pre class="mb-0"><code class="language-markup">&lt;!-- Small -->
+&lt;form class="lookup lookup-right lookup-sm">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form>
+
+&lt;!-- Default -->
+&lt;form class="lookup lookup-right">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form>
+
+&lt;!-- Large -->
+&lt;form class="lookup lookup-right lookup-lg">
+  &lt;input type="text" placeholder="Search...">
+&lt;/form></code></pre>
+
+                  <div class="code-toggler">
+                    <button class="btn btn-square"><i class="ion-code"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Circular lookups
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Circle</strong> lookup</h4>
+
+          <div class="card-body">
+            <div class="row gap-y">
+
+              <div class="col-xl-6">
+
+                <div class="code mb-0">
+                  <div class="code-preview">
+                    <!-- Small -->
+                    <form class="lookup lookup-circle lookup-sm mb-1">
+                      <input type="text" name="s">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Default -->
+                    <form class="lookup lookup-circle mb-1">
+                      <input type="text" name="s">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Large -->
+                    <form class="lookup lookup-circle lookup-lg mb-1">
+                      <input type="text" name="s">
+                    </form>
+                  </div>
+
+                  <pre class="mb-0"><code class="language-markup">&lt;!-- Small -->
+&lt;form class="lookup lookup-circle lookup-sm">
+  &lt;input type="text" name="s">
+&lt;/form>
+
+&lt;!-- Default -->
+&lt;form class="lookup lookup-circle">
+  &lt;input type="text" name="s">
+&lt;/form>
+
+&lt;!-- Large -->
+&lt;form class="lookup lookup-circle lookup-lg">
+  &lt;input type="text" name="s">
+&lt;/form></code></pre>
+
+                  <div class="code-toggler">
+                    <button class="btn btn-square"><i class="ion-code"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="col-xl-6">
+
+                <div class="code mb-0">
+                  <div class="code-preview text-right">
+                    <!-- Small -->
+                    <form class="lookup lookup-circle lookup-right lookup-sm mb-1">
+                      <input type="text" name="s">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Default -->
+                    <form class="lookup lookup-circle lookup-right mb-1">
+                      <input type="text" name="s">
+                    </form>
+
+                    <br><br>
+
+                    <!-- Large -->
+                    <form class="lookup lookup-circle lookup-right lookup-lg mb-1">
+                      <input type="text" name="s">
+                    </form>
+                  </div>
+
+                  <pre class="mb-0"><code class="language-markup">&lt;!-- Small -->
+&lt;form class="lookup lookup-circle lookup-right lookup-sm">
+  &lt;input type="text" name="s">
+&lt;/form>
+
+&lt;!-- Default -->
+&lt;form class="lookup lookup-circle lookup-right">
+  &lt;input type="text" name="s">
+&lt;/form>
+
+&lt;!-- Large -->
+&lt;form class="lookup lookup-circle lookup-right lookup-lg">
+  &lt;input type="text" name="s">
+&lt;/form></code></pre>
+
+                  <div class="code-toggler">
+                    <button class="btn btn-square"><i class="ion-code"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Huge lookup
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Huge</strong> lookup</h4>
+
+          <div class="card-body">
+            <p><code>.lookup-huge</code> applies to <strong>.lookup</strong></p>
+            <form class="lookup lookup-huge">
+              <input type="text" placeholder="Type keyword and press enter...">
+            </form>
+
+            <hr>
+
+            <p>You might modify your search forms to add more components:</p>
+            <form class="lookup lookup-huge no-icon gap-items">
+              <input type="text" placeholder="Type keyword and press enter...">
+              <button class="btn btn-primary btn-round w-64px fs-22"><i class="ti-search"></i></button>
+            </form>
+
+            <hr>
+
+            <form class="lookup lookup-huge no-icon">
+              <input class="no-radius" type="text" placeholder="Job title, skills, or company">
+              <input class="no-radius" type="text" placeholder="City, state or zip">
+              <button class="btn btn-primary btn-bold no-radius fs-14">Search</button>
+            </form>
+
+            <hr>
+
+            <form class="lookup lookup-huge no-icon">
+              <input class="no-radius" type="text" placeholder="Keyword">
+              <select class="d-none d-md-block" data-provide="selectpicker" multiple>
+                <option selected>Any type</option>
+                <option>Website</option>
+                <option>Image</option>
+                <option>Video</option>
+                <option>Map</option>
+              </select>
+              <select class="d-none d-md-block" data-provide="selectpicker">
+                <option selected>Any time</option>
+                <option>Last year</option>
+                <option>Last month</option>
+                <option>Last week</option>
+                <option>Last 24 hours</option>
+              </select>
+              <button class="btn btn-primary btn-bold no-radius fs-14">Search</button>
+            </form>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Fullscreen lookup
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Fullscreen</strong> lookup</h4>
+
+          <div class="card-body">
+            <div class="row gap-y">
+
+
+              <div class="col-md-6">
+                <p>Include a <code>.lookup-fullscreen</code> markup in your page and toggle it using a button. You should handle search result using Ajax requests.</p>
+
+                <p>If you specify a <code>data-url="path/to/search.php"</code> for the lookup, upon each <em>keyup</em> on the input, a POST request will be send to the <em>url</em> with a parameter named <code class="code-bold">s</code> which is value of the search input. The result returned from the request, will insert inside <code>.lookup-results</code>.</p>
+
+                <br>
+
+                <button class="btn btn-primary" data-toggle="lookup" data-target="#lookup-full">Launch a demo</button>
+              </div>
+
+
+              <div class="col-md-6">
+                <pre class="line-numbers no-border mb-0"><code class="language-markup">&lt;div class="lookup-fullscreen" id="lookup-full" data-url="path/to/search.php">
+  &lt;span class="close" data-toggle="lookup" data-target="#lookup-full">&lt;i class="ti-close">&lt;/i>&lt;/span>
+
+  &lt;div class="lookup-form">
+    &lt;input type="text" placeholder="Search anything">
+  &lt;/div>
+
+  &lt;div class="lookup-results">
+
+  &lt;/div>
+&lt;/div></code></pre>
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="http://thetheme.io/theadmin">TheAdmin</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="../help/articles.html">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../help/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://themeforest.net/item/theadmin-responsive-bootstrap-4-admin-dashboard-webapp-template/20475359?license=regular&amp;open_purchase_for_item_id=20475359&amp;purchasable=source&amp;ref=thethemeio">Purchase Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+
+    <!-- Fullscreen search -->
+    <div class="lookup-fullscreen" id="lookup-full">
+      <span class="close" data-toggle="lookup" data-target="#lookup-full"><i class="ti-close"></i></span>
+
+      <div class="lookup-form">
+        <input type="text" placeholder="Search anything">
+      </div>
+
+      <div class="lookup-results scrollable">
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5">
+            <h5 class="text-uppercase fw-400">Messages</h5>
+
+            <div class="media-list media-list-divided media-list-hover">
+              <a class="media media-new" href="#">
+                <span class="avatar status-success">
+                  <img src="../assets/img/avatar/1.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                  <p>Authoritatively exploit resource maximizing technologies before technically.</p>
+                </div>
+              </a>
+
+              <a class="media media-new" href="#">
+                <span class="avatar status-warning">
+                  <img src="../assets/img/avatar/2.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                  <p>Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-dark">
+                  <img src="../assets/img/avatar/3.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                  <p>Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-success bg-purple">FT</span>
+
+                <div class="media-body">
+                  <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+                  <p>Interactively innovate transparent relationships with holistic infrastructures.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-danger">
+                  <img src="../assets/img/avatar/4.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                  <p>Collaboratively visualize corporate initiatives for web-enabled value.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-success">
+                  <img src="../assets/img/avatar/5.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Garret Gloss</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                  <p>Competently plagiarize visionary outsourcing after turnkey outside.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-success bg-pink">EA</span>
+
+                <div class="media-body">
+                  <p><strong>Ena Avelar</strong> <time class="float-right" datetime="2017-07-14 20:00">2 days ago</time></p>
+                  <p>Holisticly restore resource maximizing mindshare before visionary.</p>
+                </div>
+              </a>
+
+              <a class="media" href="#">
+                <span class="avatar status-warning">
+                  <img src="../assets/img/avatar/6.jpg" alt="...">
+                </span>
+
+                <div class="media-body">
+                  <p><strong>Enoch Keach</strong> <time class="float-right" datetime="2017-07-14 20:00">2 days ago</time></p>
+                  <p>Efficiently strategize resource sucking alignments after competitive.</p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 ml-lg-auto col-lg-5">
+            <h5 class="text-uppercase fw-400">Users</h5>
+
+            <div class="media-list media-list-hover">
+              <a class="media items-center" href="#">
+                <img class="avatar avatar-sm" src="../assets/img/avatar/1.jpg" alt="...">
+                <p>Maryam Amiri</p>
+              </a>
+
+              <a class="media items-center" href="#">
+                <img class="avatar avatar-sm" src="../assets/img/avatar/2.jpg" alt="...">
+                <p>Hossein Shams</p>
+              </a>
+
+              <a class="media items-center" href="#">
+                <span class="avatar avatar-sm bg-secondary">LB</span>
+                <p>Luz Buchler</p>
+              </a>
+
+              <a class="media items-center" href="#">
+                <img class="avatar avatar-sm" src="../assets/img/avatar/3.jpg" alt="...">
+                <p>Tim Hank</p>
+              </a>
+
+              <a class="media items-center" href="#">
+                <span class="avatar avatar-sm bg-dark">KC</span>
+                <p>Karla Cardinal</p>
+              </a>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- END Fullscreen search -->
+
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+  </body>
+</html>

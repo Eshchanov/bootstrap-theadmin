@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. A bar container to put most important action of your app inside the topbar, so they would be more accessable.">
+    <meta name="keywords" content="topbar, secondary, menu">
+
+    <title>Secondary Topbar &mdash; TheAdmin</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+
+    <!-- Topbar -->
+    <header class="topbar topbar-expand-xl topbar-secondary">
+      <div class="topbar-left">
+        <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+        <span class="logo"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+        <div class="topbar-divider d-none d-md-block"></div>
+
+        <nav class="topbar-navigation">
+          <ul class="menu">
+
+            <li class="menu-item">
+              <a class="menu-link" href="../index.html">
+                <span class="icon fa fa-home"></span>
+                <span class="title">Dashboard</span>
+              </a>
+            </li>
+
+
+            <li class="menu-item active open">
+              <a class="menu-link" href="#">
+                <span class="icon ti-layout"></span>
+                <span class="title">Layout</span>
+                <span class="arrow"></span>
+              </a>
+
+              <ul class="menu-submenu">
+                <li class="menu-item">
+                  <a class="menu-link" href="grid.html">
+                    <span class="dot"></span>
+                    <span class="title">Grid</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="sidebar.html">
+                    <span class="dot"></span>
+                    <span class="title">Sidebar</span>
+                  </a>
+                </li>
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="topbar.html">
+                    <span class="dot"></span>
+                    <span class="title">Topbar</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="header.html">
+                    <span class="dot"></span>
+                    <span class="title">Header</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li class="menu-item">
+              <a class="menu-link" href="#">
+                <span class="icon fa fa-align-left"></span>
+                <span class="title">Content</span>
+                <span class="arrow"></span>
+              </a>
+
+              <ul class="menu-submenu">
+                <li class="menu-item">
+                  <a class="menu-link" href="../content/typography.html">
+                    <span class="dot"></span>
+                    <span class="title">Typography</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="../content/colors.html">
+                    <span class="dot"></span>
+                    <span class="title">Colors</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="../content/icons.html">
+                    <span class="dot"></span>
+                    <span class="title">Icons</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="../content/images.html">
+                    <span class="dot"></span>
+                    <span class="title">Images</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="../content/tables.html">
+                    <span class="dot"></span>
+                    <span class="title">Tables</span>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="topbar-right">
+
+        <form class="lookup lookup-circle lookup-lg lookup-right" target="index.html">
+          <input type="text" name="s">
+        </form>
+
+        <div class="topbar-divider d-none d-md-block"></div>
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <a class="dropdown-item" href="#"><i class="ti-help"></i> Help</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+
+          <!-- Notifications -->
+          <li class="d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="quickview" data-target="#qv-notifications"><i class="ti-bell"></i></span>
+          </li>
+          <!-- END Notifications -->
+
+          <!-- Messages -->
+          <li class="d-none d-md-block">
+            <span class="topbar-btn" data-toggle="quickview" data-target="#qv-messages"><i class="ti-email"></i></span>
+          </li>
+          <!-- END Messages -->
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+
+      <header class="header bg-ui-general">
+        <div class="header-info">
+          <h1 class="header-title">
+            <strong>Topbar</strong> secondary
+            <small>A bar container to put most important action of your app inside the topbar, so they would be more accessable.</small>
+          </h1>
+        </div>
+
+        <div class="header-action">
+          <nav class="nav">
+            <a class="nav-link" href="topbar.html">Basic</a>
+            <a class="nav-link" href="topbar-menu.html">Menu</a>
+            <a class="nav-link active" href="topbar-secondary.html">Secondary</a>
+            <a class="nav-link" href="topbar-doc.html">Doc</a>
+          </nav>
+        </div>
+      </header><!--/.header -->
+
+
+      <div class="main-content doc-topbar-static">
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Minimal
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="divider fs-16">Minimal</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="title">Layout</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Icon
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Icon</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Layout</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Description
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Description</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="logo"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-md-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active open">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">
+                      <span>Dashboard</span>
+                      <small>3 Variations</small>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">
+                      <span>Layout</span>
+                      <small>Make it yours</small>
+                    </span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">Blank page</a>
+                    </li>
+                    <li class="menu-item active">
+                      <a class="menu-link" href="#">Topbar</a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">Sidebar</a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Menu variations
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Menu Variations</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Icon</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="icon ti-layout-width-full"></span>
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="icon ti-layout-tab-window"></span>
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="icon ti-layout-sidebar-left"></span>
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-control-record"></span>
+                    <span class="title">Dot</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="dot"></span>
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="dot"></span>
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="dot"></span>
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Badge and menu level
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Badges and Menu Level</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Badges</span>
+                    <span class="badge badge-pill badge-info">3</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Menu level</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                        <span class="arrow"></span>
+                      </a>
+
+                      <ul class="menu-sub-submenu">
+                        <li class="menu-item">
+                          <a class="menu-link" href="#">
+                            <span class="title">Default</span>
+                          </a>
+                        </li>
+
+                        <li class="menu-item">
+                          <a class="menu-link" href="#">
+                            <span class="title">Secondary</span>
+                          </a>
+                        </li>
+
+                        <li class="menu-item">
+                          <a class="menu-link" href="#">
+                            <span class="title">Horizontal menu</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                        <span class="badge badge-pill badge-cyan">6</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Two parts
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Two Parts</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Layout</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="topbar-right">
+
+            <form class="lookup lookup-circle lookup-lg lookup-right" target="index.html">
+              <input type="text" name="s">
+            </form>
+
+            <div class="topbar-divider d-none d-md-block"></div>
+
+            <ul class="topbar-btns">
+              <li class="dropdown">
+                <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+                  <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+                  <a class="dropdown-item" href="#"><i class="ti-help"></i> Help</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+                </div>
+              </li>
+
+              <!-- Notifications -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn has-new" data-toggle="quickview" data-target="#qv-notifications"><i class="ti-bell"></i></span>
+              </li>
+              <!-- END Notifications -->
+
+              <!-- Messages -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn" data-toggle="quickview" data-target="#qv-messages"><i class="ti-email"></i></span>
+              </li>
+              <!-- END Messages -->
+            </ul>
+
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Inverse
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Inverse</div>
+        <p>Only includes a title and a sidebar toggler button which displays in small screen devices.</p>
+
+        <header class="topbar topbar-expand-xl topbar-secondary topbar-inverse">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo-light.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Layout</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="topbar-right">
+
+            <form class="lookup lookup-circle lookup-lg lookup-right" target="index.html">
+              <input type="text" name="s">
+            </form>
+
+            <div class="topbar-divider d-none d-md-block"></div>
+
+            <ul class="topbar-btns">
+              <li class="dropdown">
+                <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+                  <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+                  <a class="dropdown-item" href="#"><i class="ti-help"></i> Help</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+                </div>
+              </li>
+
+              <!-- Notifications -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn has-new" data-toggle="quickview" data-target="#qv-notifications"><i class="ti-bell"></i></span>
+              </li>
+              <!-- END Notifications -->
+
+              <!-- Messages -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn" data-toggle="quickview" data-target="#qv-messages"><i class="ti-email"></i></span>
+              </li>
+              <!-- END Messages -->
+            </ul>
+
+          </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Colors
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <br><br><br><br>
+        <div class="divider fs-16">Colors</div>
+        <p>Apply <code>.topbar-inverse</code> and <code>.bg-*</code> <a href="../content/utilities-color.html" target="_blank">utility class</a> to <strong>.topbar</strong>. You can even have any css background-color value as you like.</p>
+
+        <div class="text-center mb-3">
+          <div data-provide="demo-color-changer" data-target="#topbar-colors" data-base-class="topbar topbar-expand-xl topbar-secondary topbar-inverse bg-" data-checked="info" data-exclude="secondary"></div>
+        </div>
+
+        <header class="topbar topbar-expand-xl topbar-secondary topbar-inverse bg-info" id="topbar-colors">
+          <div class="topbar-left">
+            <span class="topbar-btn topbar-menu-toggler"><i>&#9776;</i></span>
+            <span class="topbar-brand"><img src="../assets/img/logo-light.png" alt="logo-icon"></span>
+
+            <div class="topbar-divider d-none d-xl-block"></div>
+
+            <nav class="topbar-navigation">
+              <ul class="menu">
+
+                <li class="menu-item active">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-home"></span>
+                    <span class="title">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a class="menu-link" href="#">
+                    <span class="icon ti-layout"></span>
+                    <span class="title">Layout</span>
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="menu-submenu">
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Blank page</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Topbar</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link" href="#">
+                        <span class="title">Sidebar</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="topbar-right">
+
+            <form class="lookup lookup-circle lookup-lg lookup-right" target="index.html">
+              <input type="text" name="s">
+            </form>
+
+            <div class="topbar-divider d-none d-md-block"></div>
+
+            <ul class="topbar-btns">
+              <li class="dropdown">
+                <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+                  <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+                  <a class="dropdown-item" href="#"><i class="ti-help"></i> Help</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+                </div>
+              </li>
+
+              <!-- Notifications -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn has-new" data-toggle="quickview" data-target="#qv-notifications"><i class="ti-bell"></i></span>
+              </li>
+              <!-- END Notifications -->
+
+              <!-- Messages -->
+              <li class="d-none d-md-block">
+                <span class="topbar-btn" data-toggle="quickview" data-target="#qv-messages"><i class="ti-email"></i></span>
+              </li>
+              <!-- END Messages -->
+            </ul>
+
+          </div>
+        </header>
+
+
+
+        <br><br><br><br><br><br><br>
+
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="http://thetheme.io/theadmin">TheAdmin</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="../help/articles.html">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../help/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://themeforest.net/item/theadmin-responsive-bootstrap-4-admin-dashboard-webapp-template/20475359?license=regular&amp;open_purchase_for_item_id=20475359&amp;purchasable=source&amp;ref=thethemeio">Purchase Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- Quickviews -->
+
+
+
+    <!-- Notifications -->
+    <div id="qv-notifications" class="quickview">
+      <header class="quickview-header quickview-header-lg">
+        <p class="quickview-title">Notifications</p>
+        <span class="close"><i class="ti-close"></i></span>
+      </header>
+
+      <div class="quickview-body">
+        <div class="media-list media-list-hover media-list-divided media-sm">
+          <a class="media media-new" href="#">
+            <span class="avatar bg-success"><i class="ti-user"></i></span>
+            <div class="media-body">
+              <p>New user registered</p>
+              <time datetime="2017-07-14 20:00">Just now</time>
+            </div>
+          </a>
+
+          <a class="media media-new" href="#">
+            <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+            <div class="media-body">
+              <p>New order received</p>
+              <time datetime="2017-07-14 20:00">2 min ago</time>
+            </div>
+          </a>
+
+          <a class="media media-new" href="#">
+            <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+            <div class="media-body">
+              <p>Refund request from <b>Ashlyn Culotta</b></p>
+              <time datetime="2017-07-14 20:00">24 min ago</time>
+            </div>
+          </a>
+
+          <a class="media media-new" href="#">
+            <span class="avatar bg-primary"><i class="ti-money"></i></span>
+            <div class="media-body">
+              <p>New payment has made through PayPal</p>
+              <time datetime="2017-07-14 20:00">53 min ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-danger"><i class="ti-package"></i></span>
+            <div class="media-body">
+              <p>Package lost on the way!</p>
+              <time datetime="2017-07-14 20:00">1 hour ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-success"><i class="ti-user"></i></span>
+            <div class="media-body">
+              <p>New user registered</p>
+              <time datetime="2017-07-14 20:00">1 hour ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-purple"><i class="ti-comment"></i></span>
+            <div class="media-body">
+              <p>New review on <em>iPhone 6s</em></p>
+              <time datetime="2017-07-14 20:00">3 hours ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+            <div class="media-body">
+              <p>New order received</p>
+              <time datetime="2017-07-14 20:00">5 hours ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-danger"><i class="fa fa-area-chart"></i></span>
+            <div class="media-body">
+              <p>CPU usage went above 80%</p>
+              <time datetime="2017-07-14 20:00">Yesterday</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-yellow"><i class="fa fa-star"></i></span>
+            <div class="media-body">
+              <p>New rating on iPhone 6s, 5 star</p>
+              <time datetime="2017-07-14 20:00">Yesterday</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-success"><i class="ti-user"></i></span>
+            <div class="media-body">
+              <p>New user registered</p>
+              <time datetime="2017-07-14 20:00">Yesterday</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-primary"><i class="ti-money"></i></span>
+            <div class="media-body">
+              <p>New payment has made through PayPal</p>
+              <time datetime="2017-07-14 20:00">2 days ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+            <div class="media-body">
+              <p>New order received</p>
+              <time datetime="2017-07-14 20:00">2 days ago</time>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar bg-purple"><i class="ti-comment"></i></span>
+            <div class="media-body">
+              <p>New review on Samsung Galaxy S7</p>
+              <time datetime="2017-07-14 20:00">Aug 17</time>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <footer class="quickview-footer flexbox">
+        <div>
+          <a href="#">View full archive</a>
+        </div>
+        <div>
+          <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+          <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+          <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+        </div>
+      </footer>
+    </div>
+
+
+
+    <!-- Messages -->
+    <div id="qv-messages" class="quickview">
+      <header class="quickview-header quickview-header-lg">
+        <p class="quickview-title">Messages</p>
+        <span class="close"><i class="ti-close"></i></span>
+      </header>
+
+      <div class="quickview-body">
+        <div class="media-list media-list-divided media-list-hover">
+          <a class="media media-new" href="#">
+            <span class="avatar status-success">
+              <img src="../assets/img/avatar/1.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+              <p>Authoritatively exploit resource maximizing technologies before technically.</p>
+            </div>
+          </a>
+
+          <a class="media media-new" href="#">
+            <span class="avatar status-warning">
+              <img src="../assets/img/avatar/2.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+              <p>Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-dark">
+              <img src="../assets/img/avatar/3.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+              <p>Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-success bg-purple">FT</span>
+
+            <div class="media-body">
+              <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+              <p>Interactively innovate transparent relationships with holistic infrastructures.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-danger">
+              <img src="../assets/img/avatar/4.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+              <p>Collaboratively visualize corporate initiatives for web-enabled value.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-success">
+              <img src="../assets/img/avatar/5.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Garret Gloss</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+              <p>Competently plagiarize visionary outsourcing after turnkey outside.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-success bg-pink">EA</span>
+
+            <div class="media-body">
+              <p><strong>Ena Avelar</strong> <time class="float-right" datetime="2017-07-14 20:00">2 days ago</time></p>
+              <p>Holisticly restore resource maximizing mindshare before visionary.</p>
+            </div>
+          </a>
+
+          <a class="media" href="#">
+            <span class="avatar status-warning">
+              <img src="../assets/img/avatar/6.jpg" alt="...">
+            </span>
+
+            <div class="media-body">
+              <p><strong>Enoch Keach</strong> <time class="float-right" datetime="2017-07-14 20:00">2 days ago</time></p>
+              <p>Efficiently strategize resource sucking alignments after competitive.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <footer class="quickview-footer flexbox">
+        <div>
+          <a href="#">Go to inbox</a>
+        </div>
+        <div>
+          <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+          <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+          <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+        </div>
+      </footer>
+    </div>
+
+
+
+    <!-- END Quickviews -->
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+  </body>
+</html>

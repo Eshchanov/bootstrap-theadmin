@@ -1,0 +1,15 @@
+
+.sidebar-profile {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+body > .topbar.hidden-md-up + main {
+  padding-top: 0;
+}
+
+@media (max-width: 767px) {
+  body > .topbar.hidden-md-up + main {
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TheAdmin - Responsive admin and web application ui kit">
+    <meta name="keywords" content="admin, dashboard, web app, sass, ui kit, ui framework, bootstrap">
+
+    <title>Settings &mdash; TheAdmin Invoicer</title>
+
+    <!-- Styles -->
+    <link href="../../assets/css/core.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-expand-lg sidebar-light sidebar-sm sidebar-color-info">
+
+      <header class="sidebar-header bg-info">
+        <span class="logo">
+          <a href="index.html"><img src="assets/img/logo-light.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu menu-sm menu-bordery">
+
+          <li class="menu-item">
+            <a class="menu-link" href="index.html">
+              <span class="icon ti-home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="clients.html">
+              <span class="icon ti-user"></span>
+              <span class="title">Clients</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="products.html">
+              <span class="icon ti-briefcase"></span>
+              <span class="title">Products</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="invoices.html">
+              <span class="icon ti-receipt"></span>
+              <span class="title">Invoices</span>
+              <span class="badge badge-pill badge-info">2</span>
+            </a>
+          </li>
+
+          <li class="menu-item active">
+            <a class="menu-link" href="settings.html">
+              <span class="icon ti-settings"></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+        <a class="logo d-lg-none" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+
+        <ul class="topbar-btns">
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-lg-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user registered</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>New order received</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p>Refund request from <b>Ashlyn Culotta</b></p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-primary"><i class="ti-money"></i></span>
+                  <div class="media-body">
+                    <p>New payment has made through PayPal</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+          <!-- Messages -->
+          <li class="dropdown d-none d-lg-block">
+            <span class="topbar-btn" data-toggle="dropdown"><i class="ti-email"></i></span>
+            <div class="dropdown-menu">
+
+              <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                <a class="media media-new1" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../../assets/img/avatar/1.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-warning">
+                    <img src="../../assets/img/avatar/2.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-dark">
+                    <img src="../../assets/img/avatar/3.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-success bg-purple">FT</span>
+
+                  <div class="media-body">
+                    <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-danger">
+                    <img src="../../assets/img/avatar/4.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Collaboratively visualize corporate initiatives for web-enabled value.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../../assets/img/avatar/5.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Interactively reinvent standards compliant supply chains through next-generation bandwidth.</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all messages</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Messages -->
+
+        </ul>
+      </div>
+
+      <div class="topbar-right">
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="assets/img/logo-thetheme.png" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <a class="dropdown-item" href="#"><i class="ti-help"></i> Help</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+        </ul>
+
+        <form class="lookup lookup-circle lookup-right" target="index.html">
+          <input type="text" name="s">
+        </form>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+
+    <!-- Main container -->
+    <main>
+
+      <div class="main-content">
+        <div class="row">
+
+
+          <div class="col-lg-3">
+            <div class="card">
+              <ul class="nav nav-lg nav-pills flex-column">
+                <li class="nav-item active" data-toggle="tab" data-target="#tab1">
+                  <a class="nav-link" href="#">Company Details</a>
+                </li>
+                <li class="nav-item" data-toggle="tab" data-target="#tab2">
+                  <a class="nav-link" href="#">User Details</a>
+                </li>
+                <li class="nav-item" data-toggle="tab" data-target="#tab3">
+                  <a class="nav-link" href="#">Invoice Settings</a>
+                </li>
+                <li class="nav-item" data-toggle="tab" data-target="#tab4">
+                  <a class="nav-link" href="#">Invoice Design</a>
+                </li>
+                <li class="nav-item" data-toggle="tab" data-target="#tab5">
+                  <a class="nav-link" href="#">Email Settings</a>
+                </li>
+                <li class="nav-item" data-toggle="tab" data-target="#tab6">
+                  <a class="nav-link" href="#">Email Notification</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-9 tab-content">
+            <form class="card form-type-material tab-pane fade active show" id="tab1">
+              <h4 class="card-title fw-400">Company Details</h4>
+
+              <div class="card-body">
+                <div class="flexbox gap-items-4">
+                  <img class="avatar avatar-xl" src="assets/img/logo-thetheme.png" alt="...">
+
+                  <div class="flex-grow">
+                    <h5>TheTheme</h5>
+                    <div class="d-flex flex-column flex-sm-row gap-y gap-items-2 mt-16">
+                      <div class="file-group file-group-inline">
+                        <button class="btn btn-sm btn-w-lg btn-bold btn-secondary file-browser" type="button">Change Picture</button>
+                        <input type="file">
+                      </div>
+
+                      <a class="btn btn-sm btn-w-lg btn-bold btn-danger" href="#">Delete Picture</a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>Name</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>VAT Number</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>Website</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>Enail</label>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <select class="form-control" title="&nbsp;" data-provide="selectpicker">
+                        <option>United States</option>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                        <option>United Kingdom</option>
+                      </select>
+                      <label>Country</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>City</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="text">
+                  <label>Address</label>
+                </div>
+
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+            <form class="card form-type-material tab-pane fade" id="tab2">
+              <h4 class="card-title fw-400">User Details</h4>
+
+              <div class="card-body">
+                <div class="flexbox gap-items-4">
+                  <img class="avatar avatar-xl" src="assets/img/avatar/2.jpg" alt="...">
+
+                  <div class="flex-grow">
+                    <h5>Hossein Shams</h5>
+                    <div class="d-felx flex-column flex-sm-row gap-y gap-items-2 mt-16">
+                      <div class="file-group file-group-inline">
+                        <button class="btn btn-sm btn-w-lg btn-outline btn-round btn-secondary file-browser" type="button">Change Picture</button>
+                        <input type="file">
+                      </div>
+
+                      <a class="btn btn-sm btn-w-lg btn-outline btn-round btn-danger align-top" href="#">Delete Picture</a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>First name</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>Last name</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <input class="form-control" type="text">
+                  <label>Email</label>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <select class="form-control" title="&#xA0;" data-provide="selectpicker">
+                        <option>United States</option>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                        <option>United Kingdom</option>
+                      </select>
+                      <label>Country</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text">
+                      <label>Phone</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+
+            <form class="card form-type-material tab-pane fade" id="tab3">
+              <h4 class="card-title fw-400">Invoice Settings</h4>
+
+              <div class="card-body">
+                <h6>Invoice number</h6>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="#">
+                      <label>Prefix</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="4">
+                      <label>Padding</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="1">
+                      <label>Counter</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <textarea class="form-control" rows="4"></textarea>
+                  <label>Default footer</label>
+                </div>
+
+
+                <div class="form-group">
+                  <textarea class="form-control" rows="4"></textarea>
+                  <label>Default terms and service</label>
+                </div>
+
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+
+
+
+            <form class="card form-type-material tab-pane fade" id="tab4">
+              <h4 class="card-title fw-400">Invoice Design</h4>
+
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control" data-provide="selectpicker">
+                        <option selected>Clean</option>
+                        <option>Modern</option>
+                        <option>Bold</option>
+                        <option>Plain</option>
+                      </select>
+                      <label>Theme</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control" data-provide="selectpicker">
+                        <option selected>Roboto</option>
+                        <option>Open Sans</option>
+                        <option>Ubunto</option>
+                        <option>Arial</option>
+                      </select>
+                      <label>Font</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control" data-provide="selectpicker">
+                        <option>A1</option>
+                        <option>A2</option>
+                        <option>A3</option>
+                        <option selected>A4</option>
+                        <option>A5</option>
+                      </select>
+                      <label>Page size</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="12">
+                      <label>Font size</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="#33cabb" data-provide="colorpicker">
+                      <label>Primary Color</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" type="text" value="#48b0f7" data-provide="colorpicker">
+                      <label>Primary Color</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="switch-indicator"></span>
+                        <span class="switch-description">Hide header</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="switch-indicator"></span>
+                        <span class="switch-description">Hide footer</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="switch-indicator"></span>
+                        <span class="switch-description">High quality PDF</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+
+
+
+
+            <form class="card tab-pane fade" id="tab5">
+              <h4 class="card-title fw-400">Email Settings</h4>
+
+              <div class="card-body">
+                <div class="row form-type-material">
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <select class="form-control" data-provide="selectpicker">
+                        <option selected>Modern</option>
+                        <option>Light</option>
+                        <option>Dark</option>
+                      </select>
+                      <label>Email template</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <select class="form-control" data-provide="selectpicker">
+                        <option selected>Roboto</option>
+                        <option>Open Sans</option>
+                        <option>Ubunto</option>
+                        <option>Arial</option>
+                      </select>
+                      <label>Font</label>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Attach PDFs</span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Send as HTML</span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Include a link to PDF</span>
+                  </label>
+                </div>
+
+
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+
+
+
+
+            <form class="card tab-pane fade" id="tab6">
+              <h4 class="card-title fw-400">Email Settings</h4>
+
+              <div class="card-body">
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Email me when an invoice is sent</span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Email me when an invoice is viewed</span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Email me when an invoice is paid</span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="switch-indicator"></span>
+                    <span class="switch-description">Email me when a quote is approved</span>
+                  </label>
+                </div>
+
+
+              </div>
+
+              <footer class="card-footer text-right">
+                <button class="btn btn-flat btn-primary" type="submit">Save Changes</button>
+              </footer>
+            </form>
+
+
+
+
+
+
+
+          </div>
+
+
+        </div>
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="http://thetheme.io/theadmin">TheAdmin</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="../help/articles.html">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../help/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://themeforest.net/item/theadmin-responsive-bootstrap-4-admin-dashboard-webapp-template/20475359?license=regular&open_purchase_for_item_id=20475359&purchasable=source&ref=thethemeio">Purchase Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="../assets/data/quickview-global.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+
+    <!-- Scripts -->
+    <script src="../../assets/js/core.min.js"></script>
+    <script src="../../assets/js/app.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>

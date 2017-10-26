@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. A highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table.">
+    <meta name="keywords" content="datatables">
+
+    <title>DataTables &mdash; TheAdmin</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-right sidebar-icons-boxed sidebar-expand-lg">
+      <header class="sidebar-header">
+        <a class="logo-icon" href="../index.html"><img src="../assets/img/logo-icon-light.png" alt="logo icon"></a>
+        <span class="logo">
+          <a href="../index.html"><img src="../assets/img/logo-light.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu">
+
+          <li class="menu-category">Preview</li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="../dashboard/general.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-tv"></span>
+              <span class="title">Samples</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/invoicer/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Invoicer</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/job/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Job Management</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../samples/support/index.html">
+                  <span class="dot"></span>
+                  <span class="title">Support System</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+
+          <li class="menu-category">Framework</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-layout"></span>
+              <span class="title">Layout</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/grid.html">
+                  <span class="dot"></span>
+                  <span class="title">Grid</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/sidebar.html">
+                  <span class="dot"></span>
+                  <span class="title">Sidebar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/topbar.html">
+                  <span class="dot"></span>
+                  <span class="title">Topbar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/header.html">
+                  <span class="dot"></span>
+                  <span class="title">Header</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/aside.html">
+                  <span class="dot"></span>
+                  <span class="title">Aside</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/card.html">
+                  <span class="dot"></span>
+                  <span class="title">Card</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/quickview.html">
+                  <span class="dot"></span>
+                  <span class="title">Quickview</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../layout/footer.html">
+                  <span class="dot"></span>
+                  <span class="title">Footer</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item active open">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-align-left"></span>
+              <span class="title">Content</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../content/typography.html">
+                  <span class="dot"></span>
+                  <span class="title">Typography</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/colors.html">
+                  <span class="dot"></span>
+                  <span class="title">Colors</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/icons.html">
+                  <span class="dot"></span>
+                  <span class="title">Icons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/images.html">
+                  <span class="dot"></span>
+                  <span class="title">Images</span>
+                </a>
+              </li>
+
+              <li class="menu-item active">
+                <a class="menu-link" href="../content/tables.html">
+                  <span class="dot"></span>
+                  <span class="title">Tables</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/media.html">
+                  <span class="dot"></span>
+                  <span class="title">Media</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/code.html">
+                  <span class="dot"></span>
+                  <span class="title">Code</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../content/utilities.html">
+                  <span class="dot"></span>
+                  <span class="title">Utilities</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-plus-circle"></span>
+              <span class="title">Extention</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/ajax-loader.html">
+                  <span class="dot"></span>
+                  <span class="title">Ajax</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/animation-animate.html">
+                  <span class="dot"></span>
+                  <span class="title">Animation</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/framework-vuejs.html">
+                  <span class="dot"></span>
+                  <span class="title">JS Framework</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/pace.html">
+                  <span class="dot"></span>
+                  <span class="title">Pace</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/fullscreen.html">
+                  <span class="dot"></span>
+                  <span class="title">Fullscreen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../extension/tour.html">
+                  <span class="dot"></span>
+                  <span class="title">Tour</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-ruler-pencil"></span>
+              <span class="title">UI Kit</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/buttons.html">
+                  <span class="dot"></span>
+                  <span class="title">Buttons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/badges.html">
+                  <span class="dot"></span>
+                  <span class="title">Badges</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/notification-alert.html">
+                  <span class="dot"></span>
+                  <span class="title">Notifications</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/dialog-modal.html">
+                  <span class="dot"></span>
+                  <span class="title">Dialogs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/dropdown.html">
+                  <span class="dot"></span>
+                  <span class="title">Dropdown</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/progress-progressbar.html">
+                  <span class="dot"></span>
+                  <span class="title">Progress</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/panel-tab.html">
+                  <span class="dot"></span>
+                  <span class="title">Tabs & Accordion</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/timeline.html">
+                  <span class="dot"></span>
+                  <span class="title">Timeline</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/carousel.html">
+                  <span class="dot"></span>
+                  <span class="title">Carousel</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/nav.html">
+                  <span class="dot"></span>
+                  <span class="title">Nav</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../uikit/misc-bootstrap.html">
+                  <span class="dot"></span>
+                  <span class="title">Misc</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-check-square"></span>
+              <span class="title">Forms</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../form/input-default.html">
+                  <span class="dot"></span>
+                  <span class="title">Inputs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/control-checkbox.html">
+                  <span class="dot"></span>
+                  <span class="title">Controls</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/picker-select.html">
+                  <span class="dot"></span>
+                  <span class="title">Pickers</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/addon-slider.html">
+                  <span class="dot"></span>
+                  <span class="title">Addons</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/upload.html">
+                  <span class="dot"></span>
+                  <span class="title">Upload</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/editor-summernote.html">
+                  <span class="dot"></span>
+                  <span class="title">Editor</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/lookup.html">
+                  <span class="dot"></span>
+                  <span class="title">Lookup</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/publisher-single.html">
+                  <span class="dot"></span>
+                  <span class="title">Publisher</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/layout.html">
+                  <span class="dot"></span>
+                  <span class="title">Layouts</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/mask.html">
+                  <span class="dot"></span>
+                  <span class="title">Mask</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/validation.html">
+                  <span class="dot"></span>
+                  <span class="title">Validation</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../form/wizard.html">
+                  <span class="dot"></span>
+                  <span class="title">Wizard</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-pie-chart"></span>
+              <span class="title">Charts</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/chartjs.html">
+                  <span class="dot"></span>
+                  <span class="title">Chartjs</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/morris.html">
+                  <span class="dot"></span>
+                  <span class="title">Morris</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/sparkline.html">
+                  <span class="dot"></span>
+                  <span class="title">Sparkline</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/peity.html">
+                  <span class="dot"></span>
+                  <span class="title">Peity</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../chart/easypiechart.html">
+                  <span class="dot"></span>
+                  <span class="title">Easy pie chart</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-category">Pages</li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-puzzle-piece"></span>
+              <span class="title">Widgets</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/statistic.html">
+                  <span class="dot"></span>
+                  <span class="title">Statistic</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/chart.html">
+                  <span class="dot"></span>
+                  <span class="title">Chart</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/list.html">
+                  <span class="dot"></span>
+                  <span class="title">List</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/social.html">
+                  <span class="dot"></span>
+                  <span class="title">Social</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/blog.html">
+                  <span class="dot"></span>
+                  <span class="title">Blog</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/form.html">
+                  <span class="dot"></span>
+                  <span class="title">Form</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../widget/app.html">
+                  <span class="dot"></span>
+                  <span class="title">App</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon ti-layout-grid3-alt"></span>
+              <span class="title">Apps</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/calendar.html">
+                  <span class="dot"></span>
+                  <span class="title">Calendar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/mailbox.html">
+                  <span class="dot"></span>
+                  <span class="title">Mailbox</span>
+                  <span class="badge badge-pill badge-primary">4</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/chat.html">
+                  <span class="dot"></span>
+                  <span class="title">Chat</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-app/users.html">
+                  <span class="dot"></span>
+                  <span class="title">Users</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-file"></span>
+              <span class="title">Pages</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page/gallery.html">
+                  <span class="dot"></span>
+                  <span class="title">Gallery</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/map-google.html">
+                  <span class="dot"></span>
+                  <span class="title">Map</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/profile.html">
+                  <span class="dot"></span>
+                  <span class="title">Profile</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/pricing.html">
+                  <span class="dot"></span>
+                  <span class="title">Pricing</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/invoice-1.html">
+                  <span class="dot"></span>
+                  <span class="title">Invoice</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/userlist.html">
+                  <span class="dot"></span>
+                  <span class="title">User list</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/search.html">
+                  <span class="dot"></span>
+                  <span class="title">Search result</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page/faq-1.html">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-files-o"></span>
+              <span class="title">Extras</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-login.html">
+                  <span class="dot"></span>
+                  <span class="title">Login</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-register.html">
+                  <span class="dot"></span>
+                  <span class="title">Register</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-pass.html">
+                  <span class="dot"></span>
+                  <span class="title">Forget pass</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/user-lock.html">
+                  <span class="dot"></span>
+                  <span class="title">Lock screen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/maintenance.html">
+                  <span class="dot"></span>
+                  <span class="title">maintenance</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/coming-soon.html">
+                  <span class="dot"></span>
+                  <span class="title">coming soon</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/error.html">
+                  <span class="dot"></span>
+                  <span class="title">Error pages</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../page-extra/blank.html">
+                  <span class="dot"></span>
+                  <span class="title">Blank page</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="menu-item">
+            <a class="menu-link" href="../email/index.html">
+              <span class="icon fa fa-envelope"></span>
+              <span class="title">Emails</span>
+            </a>
+          </li>
+
+
+
+          <li class="menu-divider"></li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-question-circle"></span>
+              <span class="title">Help</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../help/articles.html">
+                  <span class="dot"></span>
+                  <span class="title">Articles</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../help/faq.html">
+                  <span class="dot"></span>
+                  <span class="title">FAQ</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../help/changelog.html">
+                  <span class="dot"></span>
+                  <span class="title">Changelog</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+
+        <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+          <i class="material-icons fullscreen-default">fullscreen</i>
+          <i class="material-icons fullscreen-active">fullscreen_exit</i>
+        </a>
+
+        <div class="dropdown d-none d-md-block">
+          <span class="topbar-btn" data-toggle="dropdown"><i class="ti-layout-grid3-alt"></i></span>
+          <div class="dropdown-menu dropdown-grid">
+            <a class="dropdown-item" href="../dashboard/general.html">
+              <span data-i8-icon="home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+            <a class="dropdown-item" href="../page/gallery.html">
+              <span data-i8-icon="stack_of_photos"></span>
+              <span class="title">Gallery</span>
+            </a>
+            <a class="dropdown-item" href="../page/search.html">
+              <span data-i8-icon="search"></span>
+              <span class="title">Search</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/calendar.html">
+              <span data-i8-icon="calendar"></span>
+              <span class="title">Calendar</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/chat.html">
+              <span data-i8-icon="sms"></span>
+              <span class="title">Chat</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/mailbox.html">
+              <span data-i8-icon="invite"></span>
+              <span class="title">Emails</span>
+            </a>
+            <a class="dropdown-item" href="../page-app/users.html">
+              <span data-i8-icon="contacts"></span>
+              <span class="title">Contacts</span>
+            </a>
+            <a class="dropdown-item" href="../widget/chart.html">
+              <span data-i8-icon="bar_chart"></span>
+              <span class="title">Charts</span>
+            </a>
+            <a class="dropdown-item" href="../page/profile.html">
+              <span data-i8-icon="businessman"></span>
+              <span class="title">Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="topbar-divider d-none d-md-block"></div>
+
+        <div class="lookup d-none d-md-block topbar-search" id="theadmin-search">
+          <input class="form-control w-300px" type="text">
+          <div class="lookup-placeholder">
+            <i class="ti-search"></i>
+            <span><strong>Try</strong> button, slider, modal, etc.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <a class="topbar-btn" href="#qv-global" data-toggle="quickview"><i class="ti-align-right"></i></a>
+
+        <div class="topbar-divider"></div>
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="../page-app/mailbox.html">
+                <div class="flexbox">
+                  <i class="ti-email"></i>
+                  <span class="flex-grow">Inbox</span>
+                  <span class="badge badge-pill badge-info">5</span>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../page-extra/user-lock-1.html"><i class="ti-lock"></i> Lock</a>
+              <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user registered</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>New order received</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p>Refund request from <b>Ashlyn Culotta</b></p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-primary"><i class="ti-money"></i></span>
+                  <div class="media-body">
+                    <p>New payment has made through PayPal</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+          <!-- Messages -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn" data-toggle="dropdown"><i class="ti-email"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-divided media-list-hover media-list-xs scrollable" style="height: 290px">
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../assets/img/avatar/1.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Maryam Amiri</strong> <time class="float-right" datetime="2017-07-14 20:00">23 min ago</time></p>
+                    <p class="text-truncate">Authoritatively exploit resource maximizing technologies before technically.</p>
+                  </div>
+                </a>
+
+                <a class="media media-new" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-warning">
+                    <img src="../assets/img/avatar/2.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Hossein Shams</strong> <time class="float-right" datetime="2017-07-14 20:00">48 min ago</time></p>
+                    <p class="text-truncate">Continually plagiarize efficient interfaces after bricks-and-clicks niches.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-dark">
+                    <img src="../assets/img/avatar/3.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Helen Bennett</strong> <time class="float-right" datetime="2017-07-14 20:00">3 hours ago</time></p>
+                    <p class="text-truncate">Objectively underwhelm cross-unit web-readiness before sticky outsourcing.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success bg-purple">FT</span>
+
+                  <div class="media-body">
+                    <p><strong>Fidel Tonn</strong> <time class="float-right" datetime="2017-07-14 20:00">21 hours ago</time></p>
+                    <p class="text-truncate">Interactively innovate transparent relationships with holistic infrastructures.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-danger">
+                    <img src="../assets/img/avatar/4.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Collaboratively visualize corporate initiatives for web-enabled value.</p>
+                  </div>
+                </a>
+
+                <a class="media" href="../page-app/mailbox-single.html">
+                  <span class="avatar status-success">
+                    <img src="../assets/img/avatar/5.jpg" alt="...">
+                  </span>
+
+                  <div class="media-body">
+                    <p><strong>Freddie Arends</strong> <time class="float-right" datetime="2017-07-14 20:00">Yesterday</time></p>
+                    <p class="text-truncate">Interactively reinvent standards compliant supply chains through next-generation bandwidth.</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all messages</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Messages -->
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+
+      <header class="header bg-ui-general">
+        <div class="header-info">
+          <h1 class="header-title">
+            <strong>Datatables</strong>
+            <small>A highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table.<br><br><a class="fs-12" href="https://datatables.net/" target="_blank">Official website</a></small>
+          </h1>
+        </div>
+
+        <div class="header-action">
+          <nav class="nav">
+            <a class="nav-link" href="tables.html">Basic</a>
+            <a class="nav-link" href="tables-color.html">Color</a>
+            <a class="nav-link active" href="tables-datatables.html">Datatables</a>
+            <a class="nav-link" href="tables-jsgrid.html">js Grid</a>
+          </nav>
+        </div>
+      </header><!--/.header -->
+
+
+
+      <div class="main-content">
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Zero configuration
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Zero</strong> configuration</h4>
+
+          <div class="card-body">
+            <p>Simply add <code>data-provide="datatables"</code> to any <em>.table</em>.</p>
+            <br>
+
+            <table class="table table-striped table-bordered" cellspacing="0" data-provide="datatables">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>Tiger Nixon</td>
+                  <td>System Architect</td>
+                  <td>Edinburgh</td>
+                  <td>61</td>
+                  <td>2011/04/25</td>
+                  <td>$320,800</td>
+                </tr>
+                <tr>
+                  <td>Garrett Winters</td>
+                  <td>Accountant</td>
+                  <td>Tokyo</td>
+                  <td>63</td>
+                  <td>2011/07/25</td>
+                  <td>$170,750</td>
+                </tr>
+                <tr>
+                  <td>Ashton Cox</td>
+                  <td>Junior Technical Author</td>
+                  <td>San Francisco</td>
+                  <td>66</td>
+                  <td>2009/01/12</td>
+                  <td>$86,000</td>
+                </tr>
+                <tr>
+                  <td>Cedric Kelly</td>
+                  <td>Senior Javascript Developer</td>
+                  <td>Edinburgh</td>
+                  <td>22</td>
+                  <td>2012/03/29</td>
+                  <td>$433,060</td>
+                </tr>
+                <tr>
+                  <td>Airi Satou</td>
+                  <td>Accountant</td>
+                  <td>Tokyo</td>
+                  <td>33</td>
+                  <td>2008/11/28</td>
+                  <td>$162,700</td>
+                </tr>
+                <tr>
+                  <td>Brielle Williamson</td>
+                  <td>Integration Specialist</td>
+                  <td>New York</td>
+                  <td>61</td>
+                  <td>2012/12/02</td>
+                  <td>$372,000</td>
+                </tr>
+                <tr>
+                  <td>Herrod Chandler</td>
+                  <td>Sales Assistant</td>
+                  <td>San Francisco</td>
+                  <td>59</td>
+                  <td>2012/08/06</td>
+                  <td>$137,500</td>
+                </tr>
+                <tr>
+                  <td>Rhona Davidson</td>
+                  <td>Integration Specialist</td>
+                  <td>Tokyo</td>
+                  <td>55</td>
+                  <td>2010/10/14</td>
+                  <td>$327,900</td>
+                </tr>
+                <tr>
+                  <td>Colleen Hurst</td>
+                  <td>Javascript Developer</td>
+                  <td>San Francisco</td>
+                  <td>39</td>
+                  <td>2009/09/15</td>
+                  <td>$205,500</td>
+                </tr>
+                <tr>
+                  <td>Sonya Frost</td>
+                  <td>Software Engineer</td>
+                  <td>Edinburgh</td>
+                  <td>23</td>
+                  <td>2008/12/13</td>
+                  <td>$103,600</td>
+                </tr>
+                <tr>
+                  <td>Jena Gaines</td>
+                  <td>Office Manager</td>
+                  <td>London</td>
+                  <td>30</td>
+                  <td>2008/12/19</td>
+                  <td>$90,560</td>
+                </tr>
+                <tr>
+                  <td>Quinn Flynn</td>
+                  <td>Support Lead</td>
+                  <td>Edinburgh</td>
+                  <td>22</td>
+                  <td>2013/03/03</td>
+                  <td>$342,000</td>
+                </tr>
+                <tr>
+                  <td>Charde Marshall</td>
+                  <td>Regional Director</td>
+                  <td>San Francisco</td>
+                  <td>36</td>
+                  <td>2008/10/16</td>
+                  <td>$470,600</td>
+                </tr>
+                <tr>
+                  <td>Haley Kennedy</td>
+                  <td>Senior Marketing Designer</td>
+                  <td>London</td>
+                  <td>43</td>
+                  <td>2012/12/18</td>
+                  <td>$313,500</td>
+                </tr>
+                <tr>
+                  <td>Tatyana Fitzpatrick</td>
+                  <td>Regional Director</td>
+                  <td>London</td>
+                  <td>19</td>
+                  <td>2010/03/17</td>
+                  <td>$385,750</td>
+                </tr>
+                <tr>
+                  <td>Michael Silva</td>
+                  <td>Marketing Designer</td>
+                  <td>London</td>
+                  <td>66</td>
+                  <td>2012/11/27</td>
+                  <td>$198,500</td>
+                </tr>
+                <tr>
+                  <td>Paul Byrd</td>
+                  <td>Chief Financial Officer (CFO)</td>
+                  <td>New York</td>
+                  <td>64</td>
+                  <td>2010/06/09</td>
+                  <td>$725,000</td>
+                </tr>
+                <tr>
+                  <td>Gloria Little</td>
+                  <td>Systems Administrator</td>
+                  <td>New York</td>
+                  <td>59</td>
+                  <td>2009/04/10</td>
+                  <td>$237,500</td>
+                </tr>
+                <tr>
+                  <td>Bradley Greer</td>
+                  <td>Software Engineer</td>
+                  <td>London</td>
+                  <td>41</td>
+                  <td>2012/10/13</td>
+                  <td>$132,000</td>
+                </tr>
+                <tr>
+                  <td>Dai Rios</td>
+                  <td>Personnel Lead</td>
+                  <td>Edinburgh</td>
+                  <td>35</td>
+                  <td>2012/09/26</td>
+                  <td>$217,500</td>
+                </tr>
+                <tr>
+                  <td>Jenette Caldwell</td>
+                  <td>Development Lead</td>
+                  <td>New York</td>
+                  <td>30</td>
+                  <td>2011/09/03</td>
+                  <td>$345,000</td>
+                </tr>
+                <tr>
+                  <td>Yuri Berry</td>
+                  <td>Chief Marketing Officer (CMO)</td>
+                  <td>New York</td>
+                  <td>40</td>
+                  <td>2009/06/25</td>
+                  <td>$675,000</td>
+                </tr>
+                <tr>
+                  <td>Caesar Vance</td>
+                  <td>Pre-Sales Support</td>
+                  <td>New York</td>
+                  <td>21</td>
+                  <td>2011/12/12</td>
+                  <td>$106,450</td>
+                </tr>
+                <tr>
+                  <td>Doris Wilder</td>
+                  <td>Sales Assistant</td>
+                  <td>Sidney</td>
+                  <td>23</td>
+                  <td>2010/09/20</td>
+                  <td>$85,600</td>
+                </tr>
+                <tr>
+                  <td>Angelica Ramos</td>
+                  <td>Chief Executive Officer (CEO)</td>
+                  <td>London</td>
+                  <td>47</td>
+                  <td>2009/10/09</td>
+                  <td>$1,200,000</td>
+                </tr>
+                <tr>
+                  <td>Gavin Joyce</td>
+                  <td>Developer</td>
+                  <td>Edinburgh</td>
+                  <td>42</td>
+                  <td>2010/12/22</td>
+                  <td>$92,575</td>
+                </tr>
+                <tr>
+                  <td>Jennifer Chang</td>
+                  <td>Regional Director</td>
+                  <td>Singapore</td>
+                  <td>28</td>
+                  <td>2010/11/14</td>
+                  <td>$357,650</td>
+                </tr>
+                <tr>
+                  <td>Brenden Wagner</td>
+                  <td>Software Engineer</td>
+                  <td>San Francisco</td>
+                  <td>28</td>
+                  <td>2011/06/07</td>
+                  <td>$206,850</td>
+                </tr>
+                <tr>
+                  <td>Fiona Green</td>
+                  <td>Chief Operating Officer (COO)</td>
+                  <td>San Francisco</td>
+                  <td>48</td>
+                  <td>2010/03/11</td>
+                  <td>$850,000</td>
+                </tr>
+                <tr>
+                  <td>Shou Itou</td>
+                  <td>Regional Marketing</td>
+                  <td>Tokyo</td>
+                  <td>20</td>
+                  <td>2011/08/14</td>
+                  <td>$163,000</td>
+                </tr>
+                <tr>
+                  <td>Michelle House</td>
+                  <td>Integration Specialist</td>
+                  <td>Sidney</td>
+                  <td>37</td>
+                  <td>2011/06/02</td>
+                  <td>$95,400</td>
+                </tr>
+                <tr>
+                  <td>Suki Burks</td>
+                  <td>Developer</td>
+                  <td>London</td>
+                  <td>53</td>
+                  <td>2009/10/22</td>
+                  <td>$114,500</td>
+                </tr>
+                <tr>
+                  <td>Prescott Bartlett</td>
+                  <td>Technical Author</td>
+                  <td>London</td>
+                  <td>27</td>
+                  <td>2011/05/07</td>
+                  <td>$145,000</td>
+                </tr>
+                <tr>
+                  <td>Gavin Cortez</td>
+                  <td>Team Leader</td>
+                  <td>San Francisco</td>
+                  <td>22</td>
+                  <td>2008/10/26</td>
+                  <td>$235,500</td>
+                </tr>
+                <tr>
+                  <td>Martena Mccray</td>
+                  <td>Post-Sales support</td>
+                  <td>Edinburgh</td>
+                  <td>46</td>
+                  <td>2011/03/09</td>
+                  <td>$324,050</td>
+                </tr>
+                <tr>
+                  <td>Unity Butler</td>
+                  <td>Marketing Designer</td>
+                  <td>San Francisco</td>
+                  <td>47</td>
+                  <td>2009/12/09</td>
+                  <td>$85,675</td>
+                </tr>
+                <tr>
+                  <td>Howard Hatfield</td>
+                  <td>Office Manager</td>
+                  <td>San Francisco</td>
+                  <td>51</td>
+                  <td>2008/12/16</td>
+                  <td>$164,500</td>
+                </tr>
+                <tr>
+                  <td>Hope Fuentes</td>
+                  <td>Secretary</td>
+                  <td>San Francisco</td>
+                  <td>41</td>
+                  <td>2010/02/12</td>
+                  <td>$109,850</td>
+                </tr>
+                <tr>
+                  <td>Vivian Harrell</td>
+                  <td>Financial Controller</td>
+                  <td>San Francisco</td>
+                  <td>62</td>
+                  <td>2009/02/14</td>
+                  <td>$452,500</td>
+                </tr>
+                <tr>
+                  <td>Timothy Mooney</td>
+                  <td>Office Manager</td>
+                  <td>London</td>
+                  <td>37</td>
+                  <td>2008/12/11</td>
+                  <td>$136,200</td>
+                </tr>
+                <tr>
+                  <td>Jackson Bradshaw</td>
+                  <td>Director</td>
+                  <td>New York</td>
+                  <td>65</td>
+                  <td>2008/09/26</td>
+                  <td>$645,750</td>
+                </tr>
+                <tr>
+                  <td>Olivia Liang</td>
+                  <td>Support Engineer</td>
+                  <td>Singapore</td>
+                  <td>64</td>
+                  <td>2011/02/03</td>
+                  <td>$234,500</td>
+                </tr>
+                <tr>
+                  <td>Bruno Nash</td>
+                  <td>Software Engineer</td>
+                  <td>London</td>
+                  <td>38</td>
+                  <td>2011/05/03</td>
+                  <td>$163,500</td>
+                </tr>
+                <tr>
+                  <td>Sakura Yamamoto</td>
+                  <td>Support Engineer</td>
+                  <td>Tokyo</td>
+                  <td>37</td>
+                  <td>2009/08/19</td>
+                  <td>$139,575</td>
+                </tr>
+                <tr>
+                  <td>Thor Walton</td>
+                  <td>Developer</td>
+                  <td>New York</td>
+                  <td>61</td>
+                  <td>2013/08/11</td>
+                  <td>$98,540</td>
+                </tr>
+                <tr>
+                  <td>Finn Camacho</td>
+                  <td>Support Engineer</td>
+                  <td>San Francisco</td>
+                  <td>47</td>
+                  <td>2009/07/07</td>
+                  <td>$87,500</td>
+                </tr>
+                <tr>
+                  <td>Serge Baldwin</td>
+                  <td>Data Coordinator</td>
+                  <td>Singapore</td>
+                  <td>64</td>
+                  <td>2012/04/09</td>
+                  <td>$138,575</td>
+                </tr>
+                <tr>
+                  <td>Zenaida Frank</td>
+                  <td>Software Engineer</td>
+                  <td>New York</td>
+                  <td>63</td>
+                  <td>2010/01/04</td>
+                  <td>$125,250</td>
+                </tr>
+                <tr>
+                  <td>Zorita Serrano</td>
+                  <td>Software Engineer</td>
+                  <td>San Francisco</td>
+                  <td>56</td>
+                  <td>2012/06/01</td>
+                  <td>$115,000</td>
+                </tr>
+                <tr>
+                  <td>Jennifer Acosta</td>
+                  <td>Junior Javascript Developer</td>
+                  <td>Edinburgh</td>
+                  <td>43</td>
+                  <td>2013/02/01</td>
+                  <td>$75,650</td>
+                </tr>
+                <tr>
+                  <td>Cara Stevens</td>
+                  <td>Sales Assistant</td>
+                  <td>New York</td>
+                  <td>46</td>
+                  <td>2011/12/06</td>
+                  <td>$145,600</td>
+                </tr>
+                <tr>
+                  <td>Hermione Butler</td>
+                  <td>Regional Director</td>
+                  <td>London</td>
+                  <td>47</td>
+                  <td>2011/03/21</td>
+                  <td>$356,250</td>
+                </tr>
+                <tr>
+                  <td>Lael Greer</td>
+                  <td>Systems Administrator</td>
+                  <td>London</td>
+                  <td>21</td>
+                  <td>2009/02/27</td>
+                  <td>$103,500</td>
+                </tr>
+                <tr>
+                  <td>Jonas Alexander</td>
+                  <td>Developer</td>
+                  <td>San Francisco</td>
+                  <td>30</td>
+                  <td>2010/07/14</td>
+                  <td>$86,500</td>
+                </tr>
+                <tr>
+                  <td>Shad Decker</td>
+                  <td>Regional Director</td>
+                  <td>Edinburgh</td>
+                  <td>51</td>
+                  <td>2008/11/13</td>
+                  <td>$183,000</td>
+                </tr>
+                <tr>
+                  <td>Michael Bruce</td>
+                  <td>Javascript Developer</td>
+                  <td>Singapore</td>
+                  <td>29</td>
+                  <td>2011/06/27</td>
+                  <td>$183,000</td>
+                </tr>
+                <tr>
+                  <td>Donna Snider</td>
+                  <td>Customer Support</td>
+                  <td>New York</td>
+                  <td>27</td>
+                  <td>2011/01/25</td>
+                  <td>$112,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Ajax sourced data
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Ajax</strong> sourced data</h4>
+
+          <div class="card-body">
+            <p>Add <code>data-ajax="path/to/data.json"</code> to your table.</p>
+            <br>
+
+            <table class="table table-striped table-bordered" cellspacing="0" data-provide="datatables" data-ajax="../assets/data/json/datatables.json">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Scroll - vertical
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title"><strong>Scrolling</strong></h4>
+
+          <div class="card-body">
+            <table class="table table-striped table-bordered" cellspacing="0" data-provide="datatables" data-ajax="../assets/data/json/datatables.json" data-scroll-y="400px" data-scroll-collapse="true" data-paging="false">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!--
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        | Individual column searching
+        |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+        !-->
+        <div class="card">
+          <h4 class="card-title">Individual column searching</h4>
+
+          <div class="card-body">
+            <table id="example-1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <br>
+        <div class="callout callout-info shadow-1">
+          <h5>More samples</h5>
+          <p>If you want to see complete list of demos from Datatables, visit <a href="https://datatables.net/examples/index" target="_blank">their examples page</a>.</p>
+        </div>
+        <br>
+
+
+
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="http://thetheme.io/theadmin">TheAdmin</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="../help/articles.html">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../help/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://themeforest.net/item/theadmin-responsive-bootstrap-4-admin-dashboard-webapp-template/20475359?license=regular&amp;open_purchase_for_item_id=20475359&amp;purchasable=source&amp;ref=thethemeio">Purchase Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="../assets/data/quickview-global.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+
+
+    <!-- Sample data to populate jsGrid demo tables -->
+    <script src="../assets/data/js/jsgrid-db.js"></script>
+
+    <script>
+      app.ready(function(){
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | Individual column searching
+        |--------------------------------------------------------------------------
+        */
+        // Setup - add a text input to each footer cell
+        $('#example-1 tfoot th').each( function () {
+          var title = $(this).text();
+          $(this).html( '<input class="form-control" type="text" placeholder="Search '+title+'">' );
+        });
+
+        // DataTable
+        var table = $('#example-1').DataTable({
+          'ajax': '../assets/data/json/datatables.json',
+          'scrollX': true,
+        });
+
+        // Apply the search
+        table.columns().every( function () {
+          var that = this;
+
+          $( 'input', this.footer() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+              that.search( this.value ).draw();
+            }
+          });
+        });
+
+
+
+
+      });
+    </script>
+
+
+  </body>
+</html>
